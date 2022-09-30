@@ -1,0 +1,25 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dashboard h2{
+    text-align: center;
+}
+.dashboard .filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#details{
+    margin: 30px auto;
+    /* margin-top: 30px; */
+    padding: 1rem;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid blue;
+    background-color: aliceblue;
+}

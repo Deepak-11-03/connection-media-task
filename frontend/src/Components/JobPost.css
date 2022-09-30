@@ -1,0 +1,74 @@
+#jobform{
+    width: 100%;
+}
+#jobform form{
+    margin: auto;
+    margin-top: 5px;
+    padding:  .3rem 1rem;
+    max-width: 30rem;
+    min-height: 34rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    border: 1px solid blue;
+}
+#jobform  #joberror{
+    color: aliceblue;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background: #282828;
+    height: 1.6rem;
+    padding: 0.6rem;
+    width: 20rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+#jobform form label{
+    font-size: .9rem;
+    margin-left: 9px;
+}
+#jobform form input{
+    margin: 0px 5px;
+    padding: .5rem;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border: 1px solid;
+    outline: none;
+}
+#jobform form select{
+    margin: .5rem;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    outline: none;
+    border-radius: 6px;
+}
+#jobform form textarea{
+    margin: 0px auto;
+    padding: .5rem;
+    width: 93%;
+    height: 5rem;
+    font-size: 1.2rem;
+    word-spacing: -6px;
+    resize: none;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+#jobform form #postjob{
+    padding: .5rem;
+    margin: 1rem 0px;
+    font-weight: bold;
+    font-size: .9rem;
+    color: rgb(36, 149, 64);
+    cursor: pointer;
+    border-color: rgb(2, 194, 50);
+    border-radius: 6px;
+    /* border: 1px solid rgb(3, 120, 32); */
+    background-color: rgb(80, 254, 123);
+}
